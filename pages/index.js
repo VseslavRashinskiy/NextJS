@@ -1,7 +1,11 @@
+import Link from "next/link";
+import Layout from "@/components/Layout";
+
 export default function Index() {
   return (
-    <div>
+    <Layout>
       <h1>Main Page</h1>
-    </div>
+      <Link href='/about'>About</Link>
+    </Layout>
   )
 }
